@@ -1,0 +1,11 @@
+@import "styles.css";
+
+.dot_underline {
+	/*color: rgba(var(--bs-dark-rgb)) !important;*/
+	text-decoration: none;
+	border-bottom:  1px dotted #aaa;
+}
+
+.dot_underline:hover {
+	border-bottom:  1px solid #aaa;
+}
