@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boyan13.github.io/cognitiobooks/sitemap.xml
+Sitemap: https://boyan13.github.io/cognitiobooks/image_sitemap.xml
