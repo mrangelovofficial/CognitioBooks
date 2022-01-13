@@ -25,7 +25,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../css/styles.css" rel="stylesheet" />
     </head>
-    <body>
+    <body class="d-flex flex-column justify-content-between">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
             <div class="container px-40 px-lg-5">
@@ -76,6 +76,13 @@
                 <div class="text-left text-white">
                     <h1 class="display-4 fw-bolder">About Us</h1>
                 </div>
+                <!-- Breadcrumbs-->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="dot_underline text-muted" href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About</li>
+                    </ol>
+                </nav>
             </div>
         </header>
         <!-- Section-->
@@ -87,7 +94,7 @@
         </section>
         <div style="height: 100%;"></div>
         <!-- Footer-->
-        <div class="container-fluid bg-dark" style="position: absolute; bottom: 0px;">
+        <div class="container-fluid bg-dark">
           <div class="container bg-dark">
             <footer class="mb-0 py-3 my-4">
               <ul class="nav justify-content-center pb-3 mb-3">
