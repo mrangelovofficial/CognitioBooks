@@ -1,7 +1,9 @@
 Cognitio Books
 ==============
 
-This is a unviersity project about SEO optimization. The project is a static online bookstore website. I've used bookdepository as reference, since I like their site.
+This is a unviersity project about SEO optimization. The project is a static website for an online bookstore. I've used bookdepository as reference, since I like their site. 
+
+The site is hosted here on GitHub Pages: https://boyan13.github.io/CognitioBooks/
 
 ___
 
