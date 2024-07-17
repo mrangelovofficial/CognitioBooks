@@ -28,9 +28,9 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container px-40 px-lg-5">
-                <a class="navbar-brand" href="#!">Cognitio Books</a>
+                <a class="navbar-brand navbar-brand-logo" href="#!">Cognitio Books</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
@@ -89,7 +89,7 @@
                         <input type="text" class="form-control col-lg-8 d-block d-md-none btn-sm" placeholder="Search">
                         <div class="input-group-append">
                           <!-- <button type="button" class="btn btn-primary btn-lg rounded-0">Search</button> -->
-                          <a href="#" class="btn btn-primary btn-lg rounded-0 d-none d-md-block">Search</a>
+                          <a href="#" class="btn btn-primary btn-lg rounded-0 rounded-end d-none d-md-block">Search</a>
                           <a href="#" rel="nofollow" class="btn btn-primary btn-sm rounded-0 d-block d-md-none">Search</a>
                         </div>
                       </div>
@@ -100,7 +100,7 @@
         <!-- Section-->
         <section class="py-5">
             <div class="container-md px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 justify-content-center">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card bg-light h-100 d-flex flex-column">
                             <!-- Product image-->
@@ -111,11 +111,11 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Dune</h5>
-                                    <h6 class="mb-2 text-muted fs-6"><a class="dot_underline text-dark" href="Category-Author-FrankHerbert.html">Frank Herbert</a></h6>
-                                    <h6 class="text-muted fs-6">23 Jul 2015</h6>
+                                    <h6 class="mb-2 text-muted product-author-card"><a class="dot_underline text-dark" href="Category-Author-FrankHerbert.html">Frank Herbert</a></h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Dune</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">23 Jul 2015</h6> -->
                                     <!-- Product price-->
-                                    $40.00 - $80.00
+                                    <div class="product-price-card">$40.00 - $80.00</div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -128,16 +128,19 @@
                     <div class="col mb-5">
                         <div class="card bg-light h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-success text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <div class="badge bg-warning text-black position-absolute" style="top: 0.5rem; right: 0.5rem">10%</div>
                             <!-- Product image-->
                             <a href="html/content/Dune2011_paperback.html"><img class="card-img-top" src="./assets/book2.jpg" alt="Dune" /></a>
                             <!-- Product details-->
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Dune</h5>
-                                    <h6 class="text-muted fs-6">Frank Herbert</h6>
-                                    <h6 class="text-muted fs-6">15 Jul 2011</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Frank Herbert</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Dune</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">15 Jul 2011</h6> -->
+                                    
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$18.00</div>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -146,9 +149,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -161,19 +161,18 @@
                     <div class="col mb-5">
                         <div class="card bg-light h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-success text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <div class="badge bg-warning text-black position-absolute" style="top: 0.5rem; right: 0.5rem">50%</div>
                             <!-- Product image-->
                             <a href="#" rel="nofollow"><img class="card-img-top" src="./assets/book3.jpg" alt="Children Of Dune" /></a>
                             <!-- Product details-->
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Children Of Dune</h5>
-                                    <h6 class="text-muted fs-6">Frank Herbert</h6>
-                                    <h6 class="text-muted fs-6">04 Jun 2019</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Frank Herbert</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Children Of Dune</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">04 Jun 2019</h6> -->
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <div class="product-price-card">$25.00</div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -185,25 +184,27 @@
                     </div>
                     <div class="col mb-5">
                         <div class="card bg-light h-100">
+                            <div class="bg-black text-white text-center position-absolute" style="width:100%; top: 0; right: 0; padding:5px;">Star Wars: The Mandalorian</div>
+
                             <!-- Product image-->
                             <a href="#" rel="nofollow"><img class="card-img-top" src="./assets/book4.jpg" alt="Star Wars The Mandalorian" /></a>
                             <!-- Product details-->
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">This Is The Way (Star Wars: The Mandalorian)</h5>
-                                    <h6 class="text-muted fs-6">Golden Books</h6>
-                                    <h6 class="text-muted fs-6">27 Oct 2020</h6>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <h6 class="mb-2 text-muted product-author-card">Golden Books</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">This Is The Way</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">27 Oct 2020</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
+                                     <!-- Product reviews-->
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -216,19 +217,18 @@
                     <div class="col mb-5">
                         <div class="card bg-light h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-success text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <div class="badge bg-warning text-black position-absolute" style="top: 0.5rem; right: 0.5rem">50%</div>
                             <!-- Product image-->
                             <a href="#" rel="nofollow"><img class="card-img-top" src="./assets/book5.jpg" alt="Modern Operating Systems" /></a>
                             <!-- Product details-->
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Modern Operating Systems: Global Edition</h5>
-                                    <h6 class="text-muted fs-6">Andrew Tanenbaum, Herbert Bos</h6>
-                                    <h6 class="text-muted fs-6">08 Oct 2014</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Andrew Tanenbaum, Herbert Bos</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Modern Operating Systems: Global Edition</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">08 Oct 2014</h6> -->
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <div class="product-price-card">$25.00</div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -246,11 +246,11 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Fahrenheit 451</h5>
-                                    <h6 class="text-muted fs-6">Ray Bradbury</h6>
-                                    <h6 class="text-muted fs-6">01 Apr 2013</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Ray Bradbury</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Fahrenheit 451</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">01 Apr 2013</h6> -->
                                     <!-- Product price-->
-                                    $17.00 - $40.00
+                                    <div class="product-price-card">$17.00 - $40.00</div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -263,27 +263,27 @@
                     <div class="col mb-5">
                         <div class="card bg-light h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-success text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <div class="badge bg-warning text-black position-absolute" style="top: 0.5rem; right: 0.5rem">55%</div>
                             <!-- Product image-->
                             <a href="#" rel="nofollow"><img class="card-img-top" src="./assets/book7.jpg" alt="Python Data Science" /></a>
                             <!-- Product details-->
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Python Data Science Handbook</h5>
-                                    <h6 class="text-muted fs-6">Jake VanderPlas</h6>
-                                    <h6 class="text-muted fs-6">20 Dec 2016</h6>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <h6 class="mb-2 text-muted product-author-card">Jake VanderPlas</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Python Data Science Handbook</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">20 Dec 2016</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$55.00</div>
+
+                                     <!-- Product reviews-->
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$90.00</span>
-                                    $50.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -301,19 +301,19 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Plato's Republic</h5>
-                                    <h6 class="text-muted fs-6">Plato</h6>
-                                    <h6 class="text-muted fs-6">18 Apr 2000</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Plato</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Plato's Republic</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">18 Apr 2000</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star"></div>
+                                        <div class="bi-star"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -331,19 +331,19 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">Thus Spoke Zarathustra</h5>
-                                    <h6 class="text-muted fs-6">Friedrich Nietzsche</h6>
-                                    <h6 class="text-muted fs-6">01 Mar 1978</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Friedrich Nietzsche</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">Thus Spoke Zarathustra</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">01 Mar 1978</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -361,19 +361,19 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">The Mahabharata</h5>
-                                    <h6 class="text-muted fs-6">Vyasa</h6>
-                                    <h6 class="text-muted fs-6">28 Jul 2009</h6>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <h6 class="mb-2 text-muted product-author-card">Vyasa</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">The Mahabharata</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">28 Jul 2009</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$60.00</div>
+                                     <!-- Product reviews-->
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $60.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -391,19 +391,20 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">The Office</h5>
-                                    <h6 class="text-muted fs-6">Andy Greene</h6>
-                                    <h6 class="text-muted fs-6">03 Dec 2020</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">Andy Greene</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">The Office</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">03 Dec 2020</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$25.00</div>
+
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star"></div>
+                                        <div class="bi-star"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $25.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -421,19 +422,20 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">A Clash of Kings</h5>
-                                    <h6 class="text-muted fs-6">George R.R. Martin</h6>
-                                    <h6 class="text-muted fs-6">10 May 2011</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">George R.R. Martin</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">A Clash of Kings</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">10 May 2011</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
+
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -451,19 +453,20 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">A Storm of Swords: Part 2 Blood and Gold</h5>
-                                    <h6 class="text-muted fs-6">George R.R. Martin</h6>
-                                    <h6 class="text-muted fs-6">10 May 2011</h6>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <h6 class="mb-2 text-muted product-author-card">George R.R. Martin</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">A Storm of Swords: Part 2 Blood and Gold</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">10 May 2011</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
+
+                                     <!-- Product reviews-->
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -481,9 +484,12 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">A Storm of Swords: Part 1 Steel and Snow</h5>
-                                    <h6 class="text-muted fs-6">George R.R. Martin</h6>
-                                    <h6 class="text-muted fs-6">09 Aug 2011</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">George R.R. Martin</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">A Storm of Swords: Part 1 Steel and Snow</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">09 Aug 2011</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
+
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -492,8 +498,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -511,9 +515,12 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">A Dance With Dragons: Part 2 After the Feast</h5>
-                                    <h6 class="text-muted fs-6">George R.R. Martin</h6>
-                                    <h6 class="text-muted fs-6">18 Oct 2012</h6>
+                                    <h6 class="mb-2 text-muted product-author-card">George R.R. Martin</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">A Dance With Dragons: Part 2 After the Feast</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">18 Oct 2012</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
+
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -522,8 +529,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -541,19 +546,20 @@
                             <div class="card-body p-2">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder fs-6">A Dance With Dragons: Part 1 Dreams and Dust</h5>
-                                    <h6 class="text-muted fs-6">George R.R. Martin</h6>
-                                    <h6 class="text-muted fs-6">17 Aug 2012</h6>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <h6 class="mb-2 text-muted product-author-card">George R.R. Martin</h6>
+                                    <h5 class="fw-bolder fs-7 product-name-card">A Dance With Dragons: Part 1 Dreams and Dust</h5>
+                                    <!-- <h6 class="mb-2 text-muted product-author-card">17 Aug 2012</h6> -->
+                                    <!-- Product price-->
+                                    <div class="product-price-card">$40.00</div>
+
+                                     <!-- Product reviews-->
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->

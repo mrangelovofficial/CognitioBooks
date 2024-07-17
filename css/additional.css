@@ -8,3 +8,35 @@
 .dot_underline:hover {
 	border-bottom:  1px solid #aaa;
 }
+
+.navbar-brand-logo {
+	font-family: 'Georgia', serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #343a40 !important;
+}
+
+.product-name-card {
+	display: -webkit-box;
+	-webkit-line-clamp: 2; 
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 45px; 
+}
+
+.product-author-card {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+  .product-price-card {
+    margin: 13px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1;
+}
